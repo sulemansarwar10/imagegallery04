@@ -5,7 +5,7 @@ function Searchbar(props) {
     const searchbtn = (e) => {
         e.preventDefault();
         props.setterm(value)
-        console.log("search", value)
+       // console.log("search", value)
     }
     return (
         <div className='text-center'>
